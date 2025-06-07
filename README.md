@@ -3,7 +3,7 @@ Improved LLM Reasoning with Self-Para-Consistency
 
 A python web app based on this Association for Computational Linguistics research paper by Wenqing Chen, et al., 2024: https://aclanthology.org/2024.findings-acl.842/. 
 
-The core idea is to generate paraphrases of the original prompt, then have the LLM vote on which response was best. Overthink makes few changes in the implementation.
+The core idea is to generate paraphrases of the original prompt, then have the LLM vote on which response was best. OverThink makes a few changes in the implementation.
 
 - It does 16 iterations on the original user prompt (calling an OpenAI model).
 - The first call to an LLM API uses the original prompt, the rest get the original plus a paraphrased version.
