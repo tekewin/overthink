@@ -20,12 +20,15 @@ The core idea is to generate paraphrases of the original prompt, then have the L
 1. install python 3.13+ and sqlite3
 2. create a python virtual environment and activate
 3. pip install -r requirements.txt
-4. create the logs.db database: sqlite3 logs.db (the app will create the logs table the first time it runs)
-5. edit the .env file to add your OpenAI and Google Gemini API keys
+4. edit the .env file to add your OpenAI and Google Gemini API keys
+5. run: python app.py
+6. open a web browser and go to http://127.0.0.1:5000/
 
 ### API pricing
 
 Here are links to API call pricing. Cached pricing probably doesn't apply in any use case since the app sends different paraphrased prompts on each call.
+
+By default, the app calls OpenAI GPT 4o mini for paraphrases and initial responses. Then, Gemini 2.5 pro to consolidate all responses and create a final answer. You can experiment with different combinations of models.
 
 [OpenAI pricing](https://platform.openai.com/docs/pricing)
 
