@@ -1,4 +1,4 @@
-# Overthink
+# OverThink
 Improved LLM Reasoning with Self-Para-Consistency
 
 A python web app based on this Association for Computational Linguistics research paper by Wenqing Chen, et al., 2024: https://aclanthology.org/2024.findings-acl.842/. 
