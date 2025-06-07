@@ -13,4 +13,13 @@ The core idea was to generate paraphrases of the original prompt, then have the 
 6. The UI is updated in real time.
 7. All responses and token counts are saved to a local Sqlite3 database for future reference.
 
+![overthink-ui](https://github.com/user-attachments/assets/c0587e2e-6886-4230-a6b6-21da73af0088)
+
+### Setup
+
+1. install python 3.13+ and sqlite3
+2. create a python virtual environment and activate
+3. pip install -r requirements.txt
+4. create the logs.db database: sqlite3 logs.db (the app will create the logs table the first time it runs)
+5. edit the .env file to add your OpenAI and Google Gemini API keys
 
