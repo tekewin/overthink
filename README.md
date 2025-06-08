@@ -26,7 +26,7 @@ The core idea is to generate paraphrases of the original prompt, then have the L
 
 ### API pricing
 
-Here are links to API call pricing. Cached pricing probably doesn't apply in any use case since the app sends different paraphrased prompts on each call.
+Here are links to API pricing. Cached pricing probably doesn't apply in any use case since the app sends different paraphrased prompts on each call.
 
 By default, the app calls OpenAI GPT 4o mini for paraphrases and initial responses. Then, Gemini 2.5 pro to consolidate all responses and create a final answer. You can experiment with different combinations of models.
 
