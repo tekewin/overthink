@@ -7,3 +7,4 @@ openai >= 1.82.1
 sqlite-fts4 >= 1.0.3
 sqlite-utils >= 3.38
 urllib3 >= 2.4.0
+dotenv >= 0.9.9
