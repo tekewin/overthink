@@ -24,7 +24,7 @@ else:
 # Configure Gemini API
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
-    gemini_model_name = 'gemini-2.5-pro-preview-05-06' 
+    gemini_model_name = 'gemini-2.5-pro-preview-06-05' 
     gemini_model = genai.GenerativeModel(gemini_model_name)
 else:
     print("Warning: GEMINI_API_KEY not found in .env file.")
