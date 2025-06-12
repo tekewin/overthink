@@ -33,3 +33,5 @@ By default, the app calls OpenAI GPT 4o mini for paraphrases and initial respons
 [OpenAI pricing](https://platform.openai.com/docs/pricing)
 
 [Google pricing](https://ai.google.dev/gemini-api/docs/pricing)
+
+[Other models (from Simon Willison)](https://www.llm-prices.com/)
