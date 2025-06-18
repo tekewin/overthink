@@ -20,7 +20,7 @@ The core idea is to generate paraphrases of the original prompt, then have the L
 1. install python 3.13+ and sqlite3
 2. create a python virtual environment and activate
 3. pip install -r requirements.txt
-4. edit the .env file to add your OpenAI and Google Gemini API keys
+4. copy the .env_example file to .env and add your OpenAI and Google Gemini API keys
 5. run: python app.py
 6. open a web browser and go to http://127.0.0.1:5000/
 
